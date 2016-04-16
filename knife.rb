@@ -8,4 +8,7 @@ client_key               "#{current_dir}/venkat909.pem"
 validation_client_name   "vrtk1-validator"
 validation_key           "#{current_dir}/vrtk1-validator.pem"
 chef_server_url          "https://api.chef.io/organizations/vrtk1"
-cookbook_path            ["#{current_dir}/../cookbooks"]
+cookbook_path            ["#{current_dir}/../chef-repo/cookbooks"]
+cookbook_copyright       "vrtk1"
+cookbook_license         "apachev2"
+cookbook_email           "machipeddy9@gmail.com"
