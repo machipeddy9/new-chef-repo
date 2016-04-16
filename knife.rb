@@ -12,3 +12,4 @@ cookbook_path            ["#{current_dir}/../chef-repo/cookbooks"]
 cookbook_copyright       "vrtk1"
 cookbook_license         "apachev2"
 cookbook_email           "machipeddy9@gmail.com"
+ssl_verify_mode          :verify_none
